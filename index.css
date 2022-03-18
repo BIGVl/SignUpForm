@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  background-image: url('assets/city.jpg');
+  font-family: 'Mulish', sans-serif;
+  display: flex;
+}
+
+.left {
+  height: 100vh;
+  width: 30%;
+}
+
+img {
+  width: 50%;
+}
+
+.right {
+  background-color: rgb(246, 246, 246);
+  height: 100vh;
+  width: 70%;
+  padding-top: 5%;
+}
+
+.description {
+  font-size: x-large;
+  font-weight: 600;
+  padding-left: 4rem;
+}
+
+form {
+  background-color: white;
+  font-family: inherit;
+  padding: 4rem;
+  height: 70%;
+  margin-top: 3rem;
+}
+
+legend {
+  margin-top: -3rem;
+  font-weight: 700;
+  font-size: 1.4rem;
+}
+
+fieldset {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  height: 90%;
+  width: 70%;
+  margin-top: 2rem;
+  gap: 1rem;
+}
+
+p {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-weight: 700;
+  font-size: small;
+  color: #555;
+  margin-bottom: 0.1rem;
+}
+
+input {
+  width: 70%;
+  border: 1px solid #e5e7eb;
+  border-radius: 5px;
+  height: 30%;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 1rem;
+  padding: 5px;
+}
+
+input:focus {
+  outline: none;
+  border: 1px solid blue;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2), 0px -1px 0px 1px rgba(0, 0, 256, 0.2), 0px 1px 0px 1px rgba(0, 0, 256, 0.2);
+}
+
+.submit {
+  width: 11rem;
+  height: 2.8rem;
+  border-radius: 10px;
+  background-color: #ff9e00;
+  font-size: 0.9rem;
+  font-weight: 800;
+  cursor: pointer;
+  font-family: inherit;
+  margin-top: 2rem;
+}
+
+.submit:hover {
+  background-color: #ff6d00;
+}
+
+.submit:active {
+  background-color: #9d4edd;
+}
